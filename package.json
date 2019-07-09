@@ -35,5 +35,5 @@
   "bugs": {
     "url": "https://github.com/devlemire/swag-node-shop/issues"
   },
-  "proxy": "http://localhost:3001"
+  "proxy": "http://localhost:3000"
 }

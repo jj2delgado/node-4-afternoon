@@ -25,7 +25,7 @@ module.exports = {
     },
     signout: (req, res) => {
         req.session.destroy()
-        req.status(200).send(req.session)
+        res.status(200).send(req.session)
     },
     getUser: (req, res) => {
         res.status(200).send(req.session.user)
